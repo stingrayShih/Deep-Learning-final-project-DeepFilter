@@ -23,7 +23,7 @@ For finetuning, we use the ms-swift package. To finetune a model, run
 CUDA_VISIBLE_DEVICES=0 swift sft     --model_type <model type>  --model <model name>   --dataset <your preprocessed data path>
 ```
 
-To generate latent embedding for classification, first change the `model_dir`, `adapter_dir`, and path to the preprocessed data, then run
+To generate latent embedding for classification, first change the `model_dir`, `adapter_dir`, and path to the preprocessed data in `get_embedding_deepseek.py`, `get_embedding_qwen2b.py`, and `get_embedding_intern.py`, then run
 ```
 python get_embedding_deepseek.py
 python get_embedding_qwen2b.py
