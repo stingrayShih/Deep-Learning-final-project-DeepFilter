@@ -38,8 +38,8 @@ python random_forest_train.py
 ```
 To do classification with ensembling, first set the `TRAIN_DATA_PATH`, and `TEST_DATA_PATH` in `ensemble_NN.py` and `ensemble_random_forest.py`, and then run
 ```
-ensemble_NN.py
-ensemble_random_forest.py
+python ensemble_NN.py
+python ensemble_random_forest.py
 ```
 
 
