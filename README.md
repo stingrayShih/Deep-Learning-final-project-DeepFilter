@@ -10,6 +10,7 @@ To install the required packages, run
 pip install -r requirements.txt
 ```
 
+##LoRA Finetuning
 For the LoRA finetuning for the DeepSeek-VL-1.3B-chat, Qwen2-VL-2B-Instruct, and OpenGVLab-InternVL2-1B models, first get into the swift folder and change the `data_path` in `swift_preprocessing.py` and `swift_preprocessing_for_inference.py`.
 Then run the following command to preprocess the data into the desired prompt format for finetuning.
 
