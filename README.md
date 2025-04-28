@@ -50,8 +50,11 @@ python ensemble_random_forest.py
 ```
 ## In-context learning and knowledge distillation
 For in-context learning and knowledge distillation, download the folder of distill.
+
 Then run the zero-shot.ipynb to get the result of in-context learning.
+
 Run the distill.ipynb to acquire distilled data from Gemini 1.5 flash.
+
 Then follow the steps mentioned above to finetune the model.
 
 ## Fine-tuning Qwen2.5-VL-7B with Unsloth
