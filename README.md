@@ -41,5 +41,7 @@ To do classification with ensembling, first set the `TRAIN_DATA_PATH`, and `TEST
 python ensemble_NN.py
 python ensemble_random_forest.py
 ```
-
+Run the zero-shot.ipynb to get the result of in-context learning. 
+Run the distill.ipynb to acquire distilled data from Gemini 1.5 flash.
+Then follow the steps mentioned above to finetune the model.
 
